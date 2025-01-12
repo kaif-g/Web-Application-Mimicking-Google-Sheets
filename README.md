@@ -17,5 +17,5 @@
 1. Open `index.html` to run the app in your browser.
 2. Modify cells, apply formulas, and check the updates automatically.
 
-## GitHub Repository
+## GitHub Repository Live link
 [https://kaif-g.github.io/Web-Application-Mimicking-Google-Sheets/](https://kaif-g.github.io/Web-Application-Mimicking-Google-Sheets/)
