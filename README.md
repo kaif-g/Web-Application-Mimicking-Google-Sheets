@@ -18,4 +18,4 @@
 2. Modify cells, apply formulas, and check the updates automatically.
 
 ## GitHub Repository
-[https://github.com/your-username/google-sheets-mimic](https://github.com/your-username/google-sheets-mimic)
+[https://kaif-g.github.io/Web-Application-Mimicking-Google-Sheets/](https://kaif-g.github.io/Web-Application-Mimicking-Google-Sheets/)
