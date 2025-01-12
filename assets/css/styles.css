@@ -1,0 +1,60 @@
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Toolbar Buttons */
+.toolbar {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-right: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Spreadsheet Container */
+.spreadsheet-container {
+    overflow: auto;
+}
+
+/* Table Styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    min-width: 50px;
+    cursor: pointer;
+}
+
+/* Formula Bar */
+#formula-bar {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Cell Formatting */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.increase-font {
+    font-size: larger;
+}
+
+.decrease-font {
+    font-size: smaller;
+}

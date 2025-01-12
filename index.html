@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheets Mimic</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Toolbar with format buttons -->
+    <div class="toolbar">
+        <button onclick="formatCell('bold')">Bold</button>
+        <button onclick="formatCell('italic')">Italic</button>
+        <button onclick="formatCell('increaseFont')">Increase Font</button>
+        <button onclick="formatCell('decreaseFont')">Decrease Font</button>
+    </div>
+
+    <!-- Spreadsheet Container -->
+    <div class="spreadsheet-container">
+        <table id="spreadsheet">
+            <thead>
+                <tr id="header-row"></tr>
+            </thead>
+            <tbody id="sheet-body"></tbody>
+        </table>
+    </div>
+
+    <!-- Formula Bar -->
+    <div>
+        <input type="text" id="formula-bar" placeholder="Enter formula here" oninput="updateFormula()">
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
